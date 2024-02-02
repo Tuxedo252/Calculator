@@ -1,0 +1,19 @@
+.mainContainerStyle{
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.containerStyle{
+/* border: 1px solid gray; */
+width: 25rem;
+display: flex;
+flex-direction: column;
+padding: 2rem;
+border-radius: 1rem;
+justify-content: center;
+align-items: center;
+box-shadow: 1px 1px 40px 1px rgb(120, 119, 119);
+}

@@ -1,0 +1,9 @@
+.inputStyle{
+    width: 20rem;
+    padding: 0.7rem;
+    font-size:xx-large;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgb(187, 185, 185);
+    outline: none;
+    }
