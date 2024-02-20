@@ -4,12 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",             
-    "build": "npm install && npm install --prefix Calculator && run build --prefix Calculator",     
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0", 
-    "preview": "vite preview", 
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d dist"
+    "dev": "vite ",             
+    "build": "npm install && npm install --prefix Calculator && run build --prefix Calculator"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
