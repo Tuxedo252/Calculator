@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './App.module.css';
+import './index.css';
 import ButtonContainer from './components/ButtonContainer';
 import InputComponent from './components/InputComponent';
 
@@ -20,8 +20,8 @@ export default function App() {
   }
 
   return (
-    <center className={styles.mainContainerStyle}>
-      <div className={styles.containerStyle}>
+    <center className="mainContainerStyle">
+      <div className="containerStyle">
         <InputComponent textToDisplay={inputText} />
         <ButtonContainer onButtonClick={handleClick} />
       </div>

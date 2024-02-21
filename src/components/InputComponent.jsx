@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './InputComponent.module.css';
+import '../index.css';
 
 export default function InputComponent({ textToDisplay }) {
-    return <><input type="text" className={styles.inputStyle} placeholder="0" value={textToDisplay} readOnly /></>
+    return <><input type="text" className="inputStyle" placeholder="0" value={textToDisplay} readOnly /></>
 
 }
